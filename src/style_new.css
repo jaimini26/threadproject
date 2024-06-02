@@ -1,0 +1,312 @@
+p {
+  margin: 0;
+}
+body {
+  background: #f1f1f1;
+}
+.RightSideTable   {
+padding: 40px 90px;
+display: block;
+position: relative;
+text-align: initial;
+background: #f1f1f1;
+}
+.Check_Box label {
+  color: #344054;
+  font-weight: normal;
+  position: relative;
+  top: -1px;
+}
+.NewStrBox {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 580px;
+  height: max-content;
+  padding: 10px 20px;
+  background: #fff;
+}
+.TitleSection {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.Small_Image {
+  height: 20px;
+  width: 20px;
+  line-height: 20px;
+  position: relative;
+  top: 4px;
+  margin-left: 4px;
+}
+.TitleSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.TitleSection p {
+  position: relative;
+  top: -2px;
+}
+.Clear_new_trades {
+    color: #006CE6;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.Clear_new_trades:hover {
+  background: #f1f1f1;
+}
+.CheckBoxSection {
+  margin-top: 15px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 13px;
+  border: none;
+}
+th {
+  color: #9c9c9c;
+  text-align: center !important;
+}
+
+td, th {
+  border: none;
+  text-align: left;
+  padding: 8px;
+}
+.Bold_Btn {
+    color: #006CE6;
+    background: #f1f1f1;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px 7px;
+    font-weight: bold;
+    height: 25px;
+}
+#thread_Select, #thread_Num, #thread_Num1 {
+  border-color: #ddd;
+  border-radius: 5px;
+  padding: 5px 7px;
+  font-size: 13px;
+}
+#thread_Select:focus, #thread_Num:focus, #thread_Num1:focus {
+  outline: 0;
+  border-color: #ddd;
+}
+.Val_thread {
+  width: 50px;
+  border: 1px solid #ddd;
+  height: 21px;
+}
+.Left_Btn {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.Right_Btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.Light_Btn {
+  background: #fff;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 5px 7px;
+}
+.Radius_Cls {
+  border-radius: 3px;
+  width: 40px;
+}
+.Delete_Icon {
+  margin-left: 7px;
+  height: 18px;
+  width: 15px;
+  position: relative;
+  top: 3px;
+}
+.Last_Icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Left_Right_Sec {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.BtnAllBottom {
+  border: 1px solid #006CE6;
+  color: #006CE6;
+  background: transparent;
+  font-size: 14px;
+  border-radius: 5px;
+  margin-right: 12px;
+  height: 40px;
+  width: 156px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.Btn_sec_aLL {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.Dots_Btn_All {
+  border: 1px solid #006CE6;
+  background: transparent;
+  font-size: 14px;
+  border-radius: 5px;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+}
+.Thread_All_Btn {
+  color: #fff;
+  background: #006CE6;
+}
+.Dots_Btn {
+  height: 20px;
+  width: 20px;
+}
+.Left_Side_Section {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.Left_Side_Section p {
+  margin-right: 10px;
+}
+.Right_Side_Section {
+  display: flex;
+  font-size: 14px;
+}
+.Right_Side_Section p, .Right_Side_Section b {
+  font-size: 14px;
+}
+.Right_Side_Section p:nth-child(2n){
+  margin-left: 20px;
+}
+.tab {
+  overflow: hidden;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 14px;
+  color: #006CE6;
+  background-color: #fff;
+  border-bottom: 1px solid  transparent;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: transparent;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: transparent;
+  border-bottom: 1px solid  #006CE6;
+  font-weight: bold;
+}
+
+/* Style the tab content */
+.tabcontent {
+  padding: 10px 20px 30px;
+  width: 94%;
+  border-top: 1px solid #ddd;
+}
+.NewStrBox_Down {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 620px;
+  height: max-content;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;  
+}
+.Ready_Made {
+  color: #8f959f;
+  font-size: 14px;
+}
+.Selection_Btn {
+  background: #E5EFFB;
+  color: #525E72;
+  font-size: 13px;
+  border-radius: 15px;
+  border: none;
+  width: 70px;
+  padding: 5px 0;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.ActiveBtn {
+  background: #006CE6;
+  color: #fff;
+}
+.ExpiryDate_P {
+  color: #525E72;
+  font-size: 13px;
+}
+.Section_Selection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ExpiryDate {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: flex-end;
+}
+.ExpiryDate_P {
+  margin-right: 15px;
+}
+.Graph_Btn {
+  border: 1px solid #dadbdc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.Graph_Btn p {
+    font-size: 10px;
+    line-height: 1.5;
+    text-transform: none;
+    text-align: center;
+    position: relative;
+    width: 90%;
+    padding-top: 5px;
+} 
+.Graph_img {
+  overflow: hidden;
+  width: 80px;
+  height: 50px;
+}
+.Graph_Btn_Active {
+  border-color: #006CE6;
+}
